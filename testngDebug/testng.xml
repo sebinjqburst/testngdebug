@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="ARIS automation testing" configfailurepolicy="continue">
+	 
+	<test name="FirstTest">
+		<classes>
+			<class name="com.debug.testngDebug.AppTestOne"> 
+				<methods>
+
+					<include name="testOne"></include> 
+				</methods>
+
+			</class>
+		</classes>
+	</test> 
+	<test name="SecondTest">
+		<classes>
+			<class name="com.debug.testngDebug.AppTestTwo"> 
+				<methods>
+
+					<include name="testTwo"></include> 
+				</methods>
+
+			</class>
+		</classes>
+	</test> 
+	
+	
+</suite> 
